@@ -17,6 +17,6 @@ class Gardener:
             if plant.all_are_ripe():
                 ripe_list.append(plant.give_away_all())
             else:
-                print('Das tomaten nicht sozretten!')
+                print('tomotos sozrevatos')
                 return None
         return ripe_list
