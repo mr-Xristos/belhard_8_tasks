@@ -29,6 +29,13 @@ class BookCard:
     def __lt__(self, year):
         return self < year
 
+    def __gt__(self, year):
+        return self > year
+
+    def __le__(self, year):
+        return self <= year
+
+
     @property
     def author(self):
         return self.__author

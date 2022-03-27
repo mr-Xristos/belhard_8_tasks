@@ -33,3 +33,10 @@
  Вернуть данного воина из метода battle.
 """
 import random
+class Warrior:
+
+    name: str
+    health_points: int(random(0, 100))
+
+    def __init__(self, name):
+        self.name = name
